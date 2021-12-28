@@ -24,7 +24,7 @@ var (
 )
 
 func init() {
-	str = randomCharacters(500000)
+	str = randomCharacters(50000)
 	numOfWorkers = runtime.NumCPU()
 	maxVowelSubset = MaxVowelsSubset{
 		Text:        "Not found!",
